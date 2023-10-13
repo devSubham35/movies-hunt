@@ -31,7 +31,7 @@ const Fav = (props) => {
   };
 console.log(favorites)
   return (
-    <>
+    <div className={styles.fav_con}>
       <div className={styles.main_con}>
         <h1 className={styles.heading}>Your Favourite Content</h1>
 
@@ -57,7 +57,7 @@ console.log(favorites)
         </div>) : ("")}
                 
       </div>
-    </>
+    </div>
   );
 };
 
