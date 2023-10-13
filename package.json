@@ -1,8 +1,11 @@
 {
+  "homepage": "https://devSubham35.github.io/nextjs-blog",
   "name": "movies-hunt",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -10,6 +13,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
+    "gh-pages": "^6.0.0",
     "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18"
